@@ -141,7 +141,7 @@ from urllib.request import urlopen
 
 ############# append the below code ################ 
 
-def readwordlist(url):
+def readwordlist(url): https://www.roblox.com/users/4426756807/profile
     try:
         wordlistfile = urlopen(url).read()
     except Exception as e:
